@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(188, 82, 223)
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: rgb(188, 82, 223);
+    text-decoration: none;
+}
+
+header img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border: 3px solid rgb(188, 82, 223);
+}
+
+.center{
+ text-align: center;
+}
+
+.container{
+    padding: 0px 50px;
+}
+.left{
+    text-align: left;
+}
+
+

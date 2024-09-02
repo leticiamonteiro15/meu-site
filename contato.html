@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+.botao{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+::selection{
+    color:black ;
+    background:rgb(188, 82, 223)
+}
+
+a.estilo1:link{color:green;}
+a.estilo1:visited{color: blue;}
+a.estilo1:hover{color: yellow;}
+
+.logoimagem{
+    width: 10px;
+    height:10px;
+    border-radius: 100%;
+    text-align: rightS;
+
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="sobremim.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+            </ul>
+        </nav
+    </div>
+    <div>
+        <h1> Entre em contato comigo</h1>
+        <h2>LinkedIn</h2>
+        <p> 
+            <a class="estilo1" href="https://www.linkedin.com/in/let%C3%ADcia-monteiro-48515224a/"> Acesse minha conta pelo link </a> </br>
+             <div>
+                <img src="./image/linkedin.png" width="30px"></img>
+              </div>
+
+
+               <h2>GitHub</h2>
+           <p> 
+            <a class="estilo1" href="https://github.com/leticiamonteiro15"> Acesse minha conta pelo link </a> </br>
+              <div>
+                <img src="./image/github.png" width="30px"></img>
+              </div>
+
+            <h2>E-mail</h2>
+            <p> 
+                <a> Me mande uma mensagem: leticiamgomes782@gmail.com</a> </br>
+              </div> 
+              <div>
+                <img src="./image/gmail.png" width="30px"></img>
+              </div>
+
+              <div id="fora">
+                <form action="">
+                    <h2 class="title">Como posso falar com você?         
+                    </h2>
+                    <label for="nome">Nome</label>
+                    <div class="input">
+                        <input id="nome" name="nome" type="text"
+                        <p> </p>
+                    </div>
+                    <label for="email">email</label>
+                    <div class="input">
+                        <input id="email" name="email" type="text"
+                        <p> </p>
+                    </div>
+                    <label for="telefone">Telefone</label>
+                    <div class="input">
+                        <input id="telefone" name="telefone" type="text"
+                    </div>
+                    <!-- fazendo o botão de enviar -->
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+        
+    </div>        
+</body>
+</html>
